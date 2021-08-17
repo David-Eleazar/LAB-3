@@ -1,0 +1,170 @@
+body {
+    margin: 0px ;
+    padding: opx ;
+}
+
+:root {
+    --fuente1: 'Architects Daughter', cursive;
+    --fuente2: 'Bangers', cursive;
+}
+
+.header {
+    width: 100% ;
+    height: 100px ;
+    display: flex;
+    justify-content: space-between;
+}
+
+.caja1 {
+    width: 100%;
+    height: 185px;
+    background: linear-gradient(to left, rgb(255, 255, 255), rgb(0, 0, 0));
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.header_container {
+    list-style: none;
+}
+
+.header_menu {
+    margin-right: 20px;
+}
+
+.header_container li {
+    margin: 13px;
+}
+
+.header_container a {
+    color: rgba(73, 85, 73, 0.534);
+    text-decoration: none;
+    display: flex;
+    font-size: 20px;
+    font-family: var(--fuente1);
+}
+
+.header_menu a:hover {
+    color: rgb(0, 0, 0);
+    transition: 200ms;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    color: red;
+}
+
+.menu {
+    margin: 15px;
+    text-decoration: none;
+    color: red;
+    font-family: fantasy;
+    font-size: 22px;
+    padding: 18px;
+    
+}
+
+/* Inicio de tarjeta */
+
+.tarjeta-1 {
+    margin: 10px;
+    border: 4px dotted black;
+    border-radius: 50px;
+    padding: 20px;
+    display: flex;
+    width: 300px;
+    height: 200px;
+    background-color: rgb(247, 242, 242);
+}
+
+.tarjeta {
+    margin: 10px;
+    border: 4px dotted black;
+    border-radius: 50px;
+    padding: 20px;
+    display: flex;
+    width: 575px;
+    height: 230px;
+    background-color: rgb(247, 242, 242);
+}
+
+.tarjeta img {
+    width: 180px;
+    border-radius: 85px;
+    margin-right: 15px;
+}
+
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Fin de tarjeta */
+
+/* inicio de form */
+
+.form {
+    justify-content: center;
+    align-items: center;
+    color: black;
+
+}
+
+/* Fin de form */
+
+/* Inicio form */
+
+.nombre {
+    color: rgb(0, 0, 0);
+    font-family: var(--fuente1);
+}
+
+.exp {
+    color: black;
+}
+
+.apellidos {
+    color: rgb(0, 0, 0);
+    font-family: var(--fuente1);
+}
+
+.correo {
+    color: rgb(0, 0, 0);
+    font-family: var(--fuente1);
+}
+
+.tel {
+    color: rgb(0, 0, 0);
+    font-family: var(--fuente1);
+}
+
+.direc {
+    color: rgb(0, 0, 0);
+    font-family: var(--fuente1);
+}
+
+.contacto {
+    font-family: var(--fuente2);
+}
+
+
+
+.tarjet_formulario {
+    margin: 10px;
+    border: 4px dotted black;
+    border-radius: 50px;
+    padding: 20px;
+    display: flex;
+    width: 525px;
+    height: 210px;
+    background-color: rgb(247, 242, 242);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+/* Fin form */
